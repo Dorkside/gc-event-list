@@ -3,7 +3,7 @@ import { onMounted, ref, computed } from 'vue';
 
 const props = defineProps({
   calendarIds: {
-    type: Array,
+    type: String,
     required: true,
   },
 });
