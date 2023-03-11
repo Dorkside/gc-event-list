@@ -10,13 +10,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "format": "prettier --write src/"
   },
-  "files": [
-    "dist"
-  ],
-  "generatePackageJson": true,
-  "publishConfig": {
-    "directory": "dist"
-  },
+  "main": "dist/index.js",
   "dependencies": {
     "vue": "^3.2.47"
   },
@@ -29,5 +23,5 @@
     "prettier": "^2.8.4",
     "vite": "^4.1.4"
   },
-  "gitHead": "58a85ca7b2c6774fa9564cf120a2fcbfeba7b12f"
+  "gitHead": "b39290435664579231a2b7420658ec67106acf5f"
 }

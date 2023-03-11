@@ -20,8 +20,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: './src/main.ce.js',
-      name: 'event',
-      fileName: 'event',
+      name: 'index',
+      fileName: 'index',
     }
   },
 })

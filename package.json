@@ -10,11 +10,5 @@
   "scripts": {
     "prepublish": "npx lerna run build",
     "publish": "npx lerna publish --contents dist --no-private"
-  },
-  "command": {
-    "version": {
-      "allowBranch": "main",
-      "conventionalCommits": true
-    }
   }
 }

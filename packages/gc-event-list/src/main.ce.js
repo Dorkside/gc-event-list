@@ -1,4 +1,3 @@
-// hey
 import { defineCustomElement } from 'vue'
 import EventList from './EventList.ce.vue'
 import EventItem from './EventItem.ce.vue'
