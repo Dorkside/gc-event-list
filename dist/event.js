@@ -3968,7 +3968,7 @@ const Ll = `.event-list[data-v-164a734f]{display:flex;flex-direction:column;gap:
       }, null, 8, kl))), 128))
     ]));
   }
-}, Ul = /* @__PURE__ */ $r(Bl, [["styles", [Ll]], ["__scopeId", "data-v-164a734f"]]), Kl = `@import"https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@700&display=swap";h3[data-v-8f9be34a],h4[data-v-8f9be34a],h5[data-v-8f9be34a]{font-family:Poppins,sans-serif;margin:0}p[data-v-8f9be34a]{font-family:Open Sans,sans-serif;margin:0}.date-frame[data-v-8f9be34a]{display:flex;flex-direction:column;align-items:center;justify-content:center;background:#f5f5f5;margin-right:1rem;text-transform:uppercase;width:100px;padding:8px}.date-frame .date[data-v-8f9be34a]{font-size:2rem;margin:-12px 0}.date-frame .end-date[data-v-8f9be34a]{color:#999}.content-frame[data-v-8f9be34a]{display:flex;flex-direction:column;justify-content:center;width:100%;color:#fff;padding:8px}.content-frame .title[data-v-8f9be34a]{font-size:1.5rem;margin-bottom:8px;text-transform:uppercase}.event[data-v-8f9be34a]{padding:4px;background:hsl(var(--58c0424c),50%,50%);display:flex;position:relative}.event[data-v-8f9be34a]:not(:last-child){margin-bottom:4px}.type-frame[data-v-8f9be34a]{position:absolute;top:8px;right:8px;color:#fff;opacity:.3}
+}, Ul = /* @__PURE__ */ $r(Bl, [["styles", [Ll]], ["__scopeId", "data-v-164a734f"]]), Kl = `@import"https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@700&display=swap";h3[data-v-4d411b54],h4[data-v-4d411b54],h5[data-v-4d411b54]{font-family:Poppins,sans-serif;margin:0}p[data-v-4d411b54]{font-family:Open Sans,sans-serif;margin:0}.date-frame[data-v-4d411b54]{display:flex;flex-direction:column;align-items:center;justify-content:center;background:#f5f5f5;margin-right:1rem;text-transform:uppercase;width:100px;padding:8px}.date-frame .date[data-v-4d411b54]{font-size:2rem;margin:-12px 0}.date-frame .end-date[data-v-4d411b54]{color:#999}.content-frame[data-v-4d411b54]{display:flex;flex-direction:column;justify-content:center;width:100%;color:#fff;padding:8px}.content-frame .title[data-v-4d411b54]{font-size:1.5rem;margin-bottom:8px;text-transform:uppercase}.event[data-v-4d411b54]{padding:4px;background:hsl(var(--49ab6565),50%,50%);display:flex;position:relative}.event[data-v-4d411b54]:not(:last-child){margin-bottom:4px}.type-frame[data-v-4d411b54]{position:absolute;top:8px;right:8px;color:#fff;opacity:.3;text-transform:uppercase;font-size:.8rem}
 `, Wl = { class: "event" }, zl = { class: "date-frame" }, ql = { class: "date" }, Jl = {
   key: 0,
   class: "end-date"
@@ -3984,7 +3984,7 @@ const Ll = `.event-list[data-v-164a734f]{display:flex;flex-direction:column;gap:
   setup(e) {
     const t = e;
     Sl((l) => ({
-      "58c0424c": ot(i)
+      "49ab6565": ot(i)
     }));
     const n = Je(() => new Date(t.event.start.date)), o = Je(() => new Date(t.event.end.date)), s = Je(() => o.value.getTime() - n.value.getTime() <= 864e5), r = {
       Régates: "250deg"
@@ -4003,7 +4003,7 @@ const Ll = `.event-list[data-v-164a734f]{display:flex;flex-direction:column;gap:
       e.event.organizer.displayName ? (Ce(), Fe("h5", Gl, Qe(e.event.organizer.displayName), 1)) : Pt("", !0)
     ]));
   }
-}, tf = /* @__PURE__ */ $r(ef, [["styles", [Kl]], ["__scopeId", "data-v-8f9be34a"]]), nf = Tr(Ul), of = Tr(tf);
+}, tf = /* @__PURE__ */ $r(ef, [["styles", [Kl]], ["__scopeId", "data-v-4d411b54"]]), nf = Tr(Ul), of = Tr(tf);
 function sf() {
   customElements.define("event-list", nf), customElements.define("event-item", of);
 }
