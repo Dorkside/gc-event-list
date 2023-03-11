@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/Dorkside/gc-event-list/compare/v0.1.8...v0.2.0) (2023-03-11)
+
+
+### Features
+
+* functional lib ([ee7f3d8](https://github.com/Dorkside/gc-event-list/commit/ee7f3d845a310042331ab1591de7b4a834f3e3cc))
+
+
+
+
+
 ## [0.1.8](https://github.com/Dorkside/gc-event-list/compare/v0.1.7...v0.1.8) (2023-03-11)
 
 
