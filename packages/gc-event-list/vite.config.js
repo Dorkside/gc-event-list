@@ -21,7 +21,8 @@ export default defineConfig({
     lib: {
       entry: './src/main.ce.js',
       name: 'event',
-      fileName: 'event'
-    }
+      fileName: 'event',
+    },
+    outDir: '../../dist'
   },
 })
