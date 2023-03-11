@@ -10,6 +10,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "format": "prettier --write src/"
   },
+  "main": "dist/event.js",
   "files": [
     "dist"
   ],
@@ -29,5 +30,5 @@
     "prettier": "^2.8.4",
     "vite": "^4.1.4"
   },
-  "gitHead": "38553901f39c4466e39a310a8c338ee0bb2623c3"
+  "gitHead": "a45f6a0526958323ff0d7ba52704517403d72ddb"
 }
