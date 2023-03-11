@@ -5,7 +5,6 @@ import EventItem from './EventItem.ce.vue'
 const EventListElement = defineCustomElement(EventList)
 const EventItemElement = defineCustomElement(EventItem)
 
-// export individual elements
 export { EventListElement, EventItemElement }
 
 export function register() {

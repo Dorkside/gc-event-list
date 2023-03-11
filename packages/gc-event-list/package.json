@@ -27,5 +27,6 @@
     "eslint-plugin-vue": "^9.9.0",
     "prettier": "^2.8.4",
     "vite": "^4.1.4"
-  }
+  },
+  "gitHead": "b8a8c0080a04600a031abf07878910da13b1f60c"
 }
