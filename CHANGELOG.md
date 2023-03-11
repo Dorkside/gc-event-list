@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/Dorkside/gc-event-list/compare/v0.2.0...v0.2.1) (2023-03-11)
+
+
+### Bug Fixes
+
+* enable single calendar ([f0cfc7a](https://github.com/Dorkside/gc-event-list/commit/f0cfc7a139ab85a8f8ceb20e81cbf1e8c4be4249))
+* use 0.2.1 ([b33e6e4](https://github.com/Dorkside/gc-event-list/commit/b33e6e48445b7d893736dc0721651f2a2bbbae7b))
+
+
+
+
+
 # [0.2.0](https://github.com/Dorkside/gc-event-list/compare/v0.1.8...v0.2.0) (2023-03-11)
 
 
