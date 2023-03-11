@@ -101,5 +101,7 @@ p {
   right: 8px;
   color: white;
   opacity: 0.3;
+  text-transform: uppercase;
+  font-size: 0.8rem;
 }
 </style>
