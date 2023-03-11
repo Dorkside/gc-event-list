@@ -7,7 +7,7 @@ const props = defineProps({
     required: true,
   },
 });
-const calendarIdString = computed(() => props.calendarIds.split(',').map((id, index) => `${index !== 0 && '&'}` + `calendarId=${id}`).join(''));
+const calendarIdString = computed(() => props.calendarIds.split(',').map((id, index) => (index !== 0 ? '&' : '') + `calendarId=${id}`).join(''));
 const data = ref({});
 
 onMounted(async () => {
