@@ -45,6 +45,9 @@ const saturation = computed(() => saturations[props.event.organizer.displayName]
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@700&display=swap');
 
+h4,h5 {
+  line-height: 1.4rem;
+}
 h3,
 h4,
 h5 {
@@ -68,7 +71,6 @@ p {
 }
 .date-frame .date {
   font-size: 2rem;
-  margin: -12px 0;
 }
 .date-frame .end-date {
   color: #999;
