@@ -13,6 +13,7 @@
   "files": [
     "dist"
   ],
+  "generatePackageJson": true,
   "publishConfig": {
     "directory": "dist"
   },
@@ -28,5 +29,5 @@
     "prettier": "^2.8.4",
     "vite": "^4.1.4"
   },
-  "gitHead": "b8a8c0080a04600a031abf07878910da13b1f60c"
+  "gitHead": "0114710e896e38522067339e641e66b6b3644504"
 }
