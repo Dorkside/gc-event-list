@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.8](https://github.com/Dorkside/gc-event-list/compare/v0.1.7...v0.1.8) (2023-03-11)
+
+
+### Bug Fixes
+
+* more vonfig for build ([5c2097a](https://github.com/Dorkside/gc-event-list/commit/5c2097a8d31da4a045f1d5155e7ccb09d97e8d79))
+
+
+
+
+
 ## [0.1.7](https://github.com/Dorkside/gc-event-list/compare/v0.1.6...v0.1.7) (2023-03-11)
 
 
