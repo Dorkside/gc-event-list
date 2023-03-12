@@ -6,7 +6,17 @@ import EventItem from './EventItem.ce.vue'
 const EventListElement = defineCustomElement(EventList)
 const EventItemElement = defineCustomElement(EventItem)
 
-window.addEventListener('DOMContentLoaded', () => {
+const register = () => {
   customElements.define('event-list', EventListElement)
   customElements.define('event-item', EventItemElement)
-}, {once: true})
+}
+
+try {
+  window.addEventListener('DOMContentLoaded', () => {
+    register()
+  }, {once: true})
+} catch (e) {
+  console.error(e)
+}
+
+
