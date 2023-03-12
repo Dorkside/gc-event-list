@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.5](https://github.com/Dorkside/gc-event-list/compare/v0.2.4...v0.2.5) (2023-03-12)
+
+
+### Bug Fixes
+
+* don't register twice ([81a79f8](https://github.com/Dorkside/gc-event-list/commit/81a79f8481553a49aa88f2622dd5cab5090a4423))
+
+
+
+
+
 ## [0.2.4](https://github.com/Dorkside/gc-event-list/compare/v0.2.3...v0.2.4) (2023-03-12)
 
 
