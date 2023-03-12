@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.3](https://github.com/Dorkside/gc-event-list/compare/v0.2.2...v0.2.3) (2023-03-12)
+
+
+### Bug Fixes
+
+* domcontentloaded ([bd0b487](https://github.com/Dorkside/gc-event-list/commit/bd0b487540a7176f937d98ca4ed15af7b3e4355b))
+
+
+
+
+
 ## [0.2.2](https://github.com/Dorkside/gc-event-list/compare/v0.2.1...v0.2.2) (2023-03-11)
 
 
