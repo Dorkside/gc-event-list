@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.4](https://github.com/Dorkside/gc-event-list/compare/v0.2.3...v0.2.4) (2023-03-12)
+
+
+### Bug Fixes
+
+* export register ([818ab9a](https://github.com/Dorkside/gc-event-list/commit/818ab9a43193be2812d1941fb6472de076bf468d))
+* register ([09d97d8](https://github.com/Dorkside/gc-event-list/commit/09d97d8fc0faceec859c1168c1a94e4c43e77738))
+
+
+
+
+
 ## [0.2.3](https://github.com/Dorkside/gc-event-list/compare/v0.2.2...v0.2.3) (2023-03-12)
 
 
