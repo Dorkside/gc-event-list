@@ -7,8 +7,10 @@ const EventListElement = defineCustomElement(EventList)
 const EventItemElement = defineCustomElement(EventItem)
 
 export const register = () => {
-  customElements.define('event-list', EventListElement)
-  customElements.define('event-item', EventItemElement)
+  if(customElements.get('event-list') === undefined) {
+    customElements.define('event-list', EventListElement)
+    customElements.define('event-item', EventItemElement)
+  }
 }
 
 try {
