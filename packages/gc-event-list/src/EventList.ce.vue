@@ -13,14 +13,22 @@ const data = ref({});
 onMounted(async () => {
   data.value = await fetch(`https://cve-events.deno.dev/?${calendarIdString.value}&timeMin=${new Date().toISOString()}`).then(res => res.json());
 });
-const calendars = computed(() => Object.values(data.value));
+const calendars = computed(() => Object.values(data.value));  
 const events = computed(() => calendars.value.map(calendar => calendar.items).flat().sort((a, b) => new Date(a.start.date) - new Date(b.start.date)));
 </script>
 
 <template>
-  <section class="event-list">
-    <event-item v-for="event of events" :key="event.id" :event="event" />
+  <section class="event-list" v-if="calendarIdString">
+    <template v-if="events.length">
+      <event-item  v-for="event of events" :key="event.id" :event="event" />
+    </template>
+    <div>
+      <p v-if="!events.length">No events found</p>
+    </div>
   </section>
+  <p v-else>
+    No calendar IDs provided
+  </p>
 </template>
 
 <style scoped>
