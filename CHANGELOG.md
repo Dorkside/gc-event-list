@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.6](https://github.com/Dorkside/gc-event-list/compare/v0.2.5...v0.2.6) (2023-03-26)
+
+
+### Bug Fixes
+
+* fallbacks ([d079166](https://github.com/Dorkside/gc-event-list/commit/d079166694a672ab8bedb4de0b284dad7046bee9))
+* update lock ([6b2770e](https://github.com/Dorkside/gc-event-list/commit/6b2770e43a6d3591352e37d9ec2cdea49ecacfb8))
+
+
+
+
+
 ## [0.2.5](https://github.com/Dorkside/gc-event-list/compare/v0.2.4...v0.2.5) (2023-03-12)
 
 
